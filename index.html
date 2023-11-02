@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+  <script type="module" crossorigin src="/assets/index-d827f908.js"></script>
+  <link rel="stylesheet" href="/assets/index-9d96c4a8.css">
+</head>
+<body>
+    
+    <div class="w-full h-screen bg-gradient-to-l from-cyan-500 to-[#011627] flex items-center justify-center cursor-default">
+        <div id="container" class="w-2/5 h-3/4 bg-white/20 shadow-xl shadow-black flex flex-col pt-10">
+            <h1 class="w-full px-7 text-white font-bold text-4xl">Todo List</h1>
+            <p class="w-full px-7 text-white/90 font-semibold text-sm tracking-widest mt-2">A simple Todo List App</p>
+            <hr class="w-2/4 ml-7 my-2">
+            <div class="w-full h-44 px-7 flex flex-col justify-center">
+                <h2 class="text-white text-xl font-semibold">New Todo</h2>
+                <div>
+                    <input class="input-task w-4/6 h-9 pl-2 text-lg rounded-sm my-2 border-none outline-none bg-teal-900/50 text-white" type="text" placeholder="Enter task here">
+                    <button class="add-task-btn w-28 h-9 rounded-md ml-3 text-white font-bold bg-cyan-800 active:scale-95">Add Todo</button>
+                </div>
+            </div>
+            <div class="tasks-container w-full h-72 overflow-scroll">
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
